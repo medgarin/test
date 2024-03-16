@@ -9,7 +9,7 @@ export const Projects = () => {
     <Container>
       <TitleSection
         primary='algunos proyectos'
-        secundary='donde he dejado mi huella'
+        secundary='¿Dónde he dejado mi huella?'
       />
       {mainProjects.map((project, index) => (
         <MainProject project={project} index={index} key={project.name} />

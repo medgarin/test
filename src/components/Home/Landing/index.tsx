@@ -24,12 +24,13 @@ export const Landing = () => {
           alignItems="center">
           <Grid item xs={12} sm={12} md={6}>
             <Typography variant="h3" className={classes.mainText}>
-              Hola!
+              ¡Hola!
               <br />
-              Soy Jose Luis y yo hago realidad{" "}
-              <span className={classes.focus}>Ideas</span>
+              Soy Jose Luis y me dedico a convertir
+              <span className={classes.focus}> ideas </span>
+              en realidad
             </Typography>
-            <Typography className={classes.leyend}>DESARROLLO SITIOS WEB</Typography>
+            <Typography className={classes.leyend}>DESARROLLO DE SITIOS WEB</Typography>
             <Box display="flex" mt={4}>
               {DownloadFile()}
             </Box>

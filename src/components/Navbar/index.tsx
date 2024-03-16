@@ -35,7 +35,8 @@ export const Navbar = () => {
             </Link>
           ))}
         </Box>
-        <Box display={{ md: "none", lg: "none", xs: "block" }}>
+        {/* TODO: Si no se va a utilizar, comentemoslo por mientras */}
+        {/* <Box display={{ md: "none", lg: "none", xs: "block" }}>
           <IconButton
             edge="start"
             className={classes.menuButton}
@@ -43,7 +44,7 @@ export const Navbar = () => {
             aria-label="menu">
             <MenuIcon color="primary" fontSize="large" />
           </IconButton>
-        </Box>
+        </Box> */}
       </Container>
     </AppBar>
   );

@@ -25,14 +25,14 @@ export const skills: ISkill[] = [
   },
   {
     description:
-      "Habilidad para identificar y solucionar problemas complejos en el backend",
+      "Habilidad para identificar y solucionar problemas complejos en el BackEnd",
     Icon: BugReportIcon,
     title: "Resolución de problemas y depuración",
   },
   {
     description:
-      "Dominio de lenguajes de programación backend como Python, JavaScript (Node.js)",
+      "Dominio de lenguajes de programación BackEnd como Python y JavaScript (Node.js)",
     Icon: JavascriptIcon,
-    title: "Programación en lenguajes backend",
+    title: "Programación en lenguajes BackEnd",
   },
 ];

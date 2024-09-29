@@ -56,7 +56,7 @@ export const TitleSection: FC<TitleProps> = ({ primary, secundary, props }) => (
       {primary.toUpperCase()}
     </Typography>
     <Typography color='textPrimary' style={{ fontSize: '38px' }} variant='h3'>
-      {alterFormat(secundary)}
+      {secundary}
     </Typography>
   </Box>
 );
